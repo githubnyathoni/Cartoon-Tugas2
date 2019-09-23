@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/team_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/team_nama"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/team_photo"
+        android:text="Ahmad Fathoni"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/team_nama"
+        android:id="@+id/team_npm"
+        android:layout_marginStart="26dp"
+        android:layout_toRightOf="@+id/team_photo"
+        android:layout_marginTop="10dp"
+        android:text="1717051053"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cartoon</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Team</string>
+    <string-array name="data_nama">
+        <item>Ahmad Fathoni</item>
+        <item>Fikri Aulia</item>
+        <item>M. Syahputra Prima</item>
+        <item>Alya Rani V</item>
+    </string-array>
+    <string-array name="data_npm">
+        <item>1717051053</item>
+        <item>1717051047</item>
+        <item>1717051057</item>
+        <item>1717051023</item>
+    </string-array>
+    <array name="data_photo">
+        <item>@drawable/inot</item>
+        <item>@drawable/uda</item>
+        <item>@drawable/imam</item>
+        <item>@drawable/alya</item>
+    </array>
+</resources>
